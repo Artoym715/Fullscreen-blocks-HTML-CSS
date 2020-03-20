@@ -1,0 +1,29 @@
+html,
+body {
+	height: 100%;
+	/* !Обязательно должен быть 100 процентов */
+	background-color: #333;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #fff;
+	font-size: 20px;
+}
+
+.wrapper {
+	min-height: 100vh;
+}
+
+.fullscreen {
+	min-height: 100vh;
+	background-color: #666;
+
+}
+
+.fullscreen__body {}
+
+.fullscreen__title {}
+
+.fullscreen__text {}
+
+.content {}
+
+.content__body {}
