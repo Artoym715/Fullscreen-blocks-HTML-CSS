@@ -15,17 +15,11 @@ body {
 }
 
 .fullscreen {
+	/*!Блок контента*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	min-height: 100vh;
 	background-color: #666;
 
 }
-
-.fullscreen__body {}
-
-.fullscreen__title {}
-
-.fullscreen__text {}
-
-.content {}
-
-.content__body {}
